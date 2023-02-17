@@ -8,7 +8,9 @@
     "@testing-library/user-event": "14.4.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-redux": "8.0.4",
     "react-scripts": "5.0.1",
+    "redux": "4.2.0",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
@@ -27,7 +29,8 @@
     ],
     "plugins": [
       "prettier",
-      "cypress"
+      "cypress",
+      "jest"
     ],
     "env": {
       "cypress/globals": true
@@ -57,6 +60,8 @@
   "devDependencies": {
     "cypress": "10.9.0",
     "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-jest": "^27.2.1",
     "eslint-plugin-prettier": "^4.2.1"
   }
 }
